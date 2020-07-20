@@ -1,4 +1,8 @@
-/* ## Colors
+/* ##Breakpoints
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
 ### Primary
 - Red: hsl(0, 78%, 62%)
 - Cyan: hsl(180, 62%, 55%)
@@ -57,6 +61,7 @@ header {
 h1 {
     color: hsl(229, 6%, 66%);
     font-size: 25px;
+    font-weight: 200;
     margin-bottom: 5px;
 }
 
@@ -76,7 +81,7 @@ header p {
 
 section .block {
     width: 90%;
-    padding: 20px 20px 85px 20px;
+    padding: 25px 25px 80px 25px;
     /* border: 1px solid rgba(194, 215, 247, 0.2); */
     border-radius: 5px;
     margin: 25px auto;
@@ -93,9 +98,9 @@ section .block {
     0 100px 80px rgba(0, 0, 0, 0.12)
     ; */
 
-    -webkit-box-shadow:0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
-       -moz-box-shadow:0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
-            box-shadow:0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
+    -webkit-box-shadow: 0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
+       -moz-box-shadow: 0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
+            box-shadow: 0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
 }
 
 section .block.cyan {
@@ -114,15 +119,35 @@ section .block.blue {
     border-top: 3px solid hsl(212, 86%, 64%);
 }
 
-h3 {
+section h3 {
+    color: hsl(234, 12%, 34%);
     margin-top: 0;
 }
 
 .block p {
+    font-size: 14px;
     color: hsl(229, 6%, 66%);
     text-align: left;
+    line-height: 1.5em;
 }
 
+.block img.align-right {
+    float: right;
+}
+
+footer {
+    margin: 40px 0 20px;
+}
 /******************************
 /* RESPONSIVE DESIGN - 1440px
 /******************************/
+
+@media (min-width: 1440px) {
+
+    header p {
+        margin: 0 400px;
+    }
+}
+
+
+
