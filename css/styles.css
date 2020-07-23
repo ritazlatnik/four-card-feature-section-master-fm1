@@ -78,28 +78,21 @@ header p {
     margin: 0 auto;
 }
 
-section .block {
+.cyan, .red, .orange, .blue {
     width: 90%;
     padding: 25px 25px 80px 25px;
     /* border: 1px solid rgba(194, 215, 247, 0.2); */
     border-radius: 5px;
-    margin: 25px auto;
-    /* -moz-box-shadow: 5px 5px 5px hsl(0, 1%, 74%);
-    -webkit-box-shadow: 5px 5px 5px hsl(0, 1%, 74%);
-    box-shadow: 5px 5px 5px hsl(0, 1%, 74%); */
-    
-    /* box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12)
-    ; */
-
-    -webkit-box-shadow: 0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
-       -moz-box-shadow: 0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
-            box-shadow: 0 1px 4px rgba(0, 102, 255, 0.2), 0 0 40px rgba(0, 102, 255, 0.1);
+    margin: 25px auto;    
+    -webkit-box-shadow: 0 15px 10px -5px hsla(234, 98%, 19%, 0.07),
+                        -10px 0 10px -5px hsla(234, 98%, 19%, 0.07),
+                        10px 0 10px -5px hsla(234, 98%, 19%, 0.07);
+       -moz-box-shadow: 0 15px 10px -5px hsla(234, 98%, 19%, 0.07),
+                        -10px 0 10px -5px hsla(234, 98%, 19%, 0.07),
+                        10px 0 10px -5px hsla(234, 98%, 19%, 0.07);
+            box-shadow: 0px 18px 10px -5px hsla(234, 98%, 19%, 0.07), 
+                        -10px 0 10px -5px hsla(234, 98%, 19%, 0.07),
+                        10px 0 10px -5px hsla(234, 98%, 19%, 0.07);
 }
 
 section .block.cyan {
@@ -159,7 +152,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 0 auto;
+        margin: 50px auto;
         padding: 0 180px;
     }
 
