@@ -16,7 +16,7 @@
 
 ## Typography
 ### Body Copy
-- Font size: 15px
+- Font size: 16px
 
 ### Fonts
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
@@ -40,7 +40,7 @@
 
 body {
     margin: 0;
-    font-size: 15px;
+    font-size: 1rem;        /* 16px */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -54,61 +54,61 @@ body {
 }
 
 header {
-    margin: 50px 0;
+    margin: 3.125rem 0;     /* 50px */
     text-align: center;
 }
 
 h1 {
     color: hsl(229, 6%, 66%);
-    font-size: 25px;
+    font-size: 1.5625rem;       /* 25px */
     font-weight: 200;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;   /* 5px */
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 1.5625rem;       /* 25px */
     font-weight: 600;
     color: hsl(234, 12%, 34%);
     margin-top: 0;
 }
 
 header p {
-    font-size: 17px;
+    font-size: 1.0625rem;       /* 17px */
     color: hsl(229, 6%, 66%);
     margin: 0 auto;
 }
 
 .cyan, .red, .orange, .blue {
     width: 90%;
-    padding: 25px 25px 80px 25px;
+    padding: 1.5625rem 1.5625rem 5rem 1.5625rem;       /* 25px 25px 80px 25px */
     /* border: 1px solid rgba(194, 215, 247, 0.2); */
-    border-radius: 5px;
-    margin: 25px auto;    
-    -webkit-box-shadow: 0 15px 10px -5px hsla(234, 98%, 19%, 0.07),
-                        -10px 0 10px -5px hsla(234, 98%, 19%, 0.07),
-                        10px 0 10px -5px hsla(234, 98%, 19%, 0.07);
-       -moz-box-shadow: 0 15px 10px -5px hsla(234, 98%, 19%, 0.07),
-                        -10px 0 10px -5px hsla(234, 98%, 19%, 0.07),
-                        10px 0 10px -5px hsla(234, 98%, 19%, 0.07);
-            box-shadow: 0px 18px 10px -5px hsla(234, 98%, 19%, 0.07), 
-                        -10px 0 10px -5px hsla(234, 98%, 19%, 0.07),
-                        10px 0 10px -5px hsla(234, 98%, 19%, 0.07);
+    border-radius: 0.3125rem;       /* 5px */
+    margin: 1.5625rem auto;     /* 25 */    
+    -webkit-box-shadow: 0 1.125rem 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07),
+                        -0.625rem 0 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07),
+                        0.625rem 0 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07);
+       -moz-box-shadow: 0 1.125rem 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07),
+                        -0.625rem 0 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07),
+                        0.625rem 0 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07);
+            box-shadow: 0 1.125rem 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07),               /* 0 15px 10px -5px hsla(234, 98%, 19%, 0.07), */
+                        -0.625rem 0 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07),              /* -10px 0 10px -5px hsla(234, 98%, 19%, 0.07), */
+                        0.625rem 0 0.625rem -0.3125rem hsla(234, 98%, 19%, 0.07);               /* 10px 0 10px -5px hsla(234, 98%, 19%, 0.07); */
 }
 
 section .block.cyan {
-    border-top: 3px solid hsl(180, 62%, 55%);
+    border-top: 0.1875rem solid hsl(180, 62%, 55%);     /* 3px */
 }
 
 section .block.red {
-    border-top: 3px solid hsl(0, 78%, 62%);
+    border-top: 0.1875rem solid hsl(0, 78%, 62%);
 }
 
 section .block.orange {
-    border-top: 3px solid hsl(34, 97%, 64%);
+    border-top: 0.1875rem solid hsl(34, 97%, 64%);
 }
 
 section .block.blue {
-    border-top: 3px solid hsl(212, 86%, 64%);
+    border-top: 0.1875rem solid hsl(212, 86%, 64%);
 }
 
 section h3 {
@@ -117,7 +117,7 @@ section h3 {
 }
 
 .block p {
-    font-size: 14px;
+    font-size: 0.875rem;        /* 14px */
     color: hsl(229, 6%, 66%);
     text-align: left;
     line-height: 1.5em;
@@ -128,7 +128,7 @@ section h3 {
 }
 
 footer {
-    margin: 40px 0 20px;
+    margin: 2.5rem 0 1.25rem;        /* 40px 0 20px */
 }
 /******************************
 /* RESPONSIVE DESIGN - 1440px
@@ -137,38 +137,38 @@ footer {
 @media (min-width: 1440px) {
     
     header {
-        margin: 50px 0 10px;
+        margin: 3.125rem 0 0.625rem;        /* 50px 0 10px */
     }
 
     h1, h2 {
-        font-size: 38px;
+        font-size: 2.375rem;        /* 38px */
     }
 
     header p {
-        margin: 0 500px;
+        margin: 0 31.25rem;        /* 0 500px */
     }
 
     section {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 50px auto;
-        padding: 0 180px;
+        margin: 3.125rem auto;      /* 50px */
+        padding: 0 11.25rem;        /* 180px */
     }
 
     section .block {
-        width: 350px;
-        height: 240px;
+        width: 21.875rem;       /* 350px */
+        height: 15rem;      /* 240px */
     }
 
     section .cyan {
-        padding-bottom: 25px;
-        margin: 160px 30px;
+        padding-bottom: 1.5625rem;      /* 25px */
+        margin: 10rem 1.875rem;     /* 160px 30px */
     }
 
     section .blue {
-        padding-bottom: 25px;
-        margin: 160px 30px;
+        padding-bottom: 1.5625rem;
+        margin: 10rem 1.875rem;
     }
 
     .group {
@@ -177,11 +177,11 @@ footer {
     }
 
     .block img.align-right {
-       padding: 30px 5px 0 0;
+       padding: 1.875rem 0.3125rem 0 0;
     }
     
     footer {
-        margin-top: 80px;
+        margin-top: 5rem;
     }
 }
 
