@@ -131,10 +131,10 @@ footer {
     margin: 2.5rem 0 1.25rem;        /* 40px 0 20px */
 }
 /******************************
-/* RESPONSIVE DESIGN - 1440px
+/* RESPONSIVE DESIGN - 1199px
 /******************************/
 
-@media (min-width: 1440px) {
+@media (min-width: 1199px) {
     
     header {
         margin: 3.125rem 0 0.625rem;        /* 50px 0 10px */
